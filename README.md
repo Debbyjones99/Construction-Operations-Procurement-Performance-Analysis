@@ -5,7 +5,6 @@ Conducted end-to-end operational analytics on ₦21.8B of construction project s
 - Project Overview
 - Business Problem
 - Business Objectives
-- Dataset
 - Dataset Description
 - Tools & Methodology
 - Data Model
