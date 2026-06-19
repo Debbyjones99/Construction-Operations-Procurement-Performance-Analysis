@@ -5,6 +5,7 @@ Conducted end-to-end operational analytics on ₦21.8B of construction project s
 - Project Overview
 - Business Problem
 - Business Objectives
+- Dataset
 - Dataset Description
 - Tools & Methodology
 - Data Model
@@ -33,6 +34,9 @@ The organization needed visibility into project performance, procurement spendin
 ## Dataset Description
 
 The dataset contains operational data from 50 construction projects across multiple locations in Nigeria. It captures project activities, procurement transactions, workforce records, supplier performance, equipment operations, and budget information.
+### Dataset 
+* <a href=https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/tree/main/Dataset > Procure to performance dashboard</a>
+
 
 ### Dataset Coverage
 
