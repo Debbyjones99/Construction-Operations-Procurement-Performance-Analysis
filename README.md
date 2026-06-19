@@ -30,7 +30,7 @@ The analysis focused on identifying cost drivers, detecting unusual spending pat
 
 The organization needed visibility into project performance, procurement spending, supplier risk, workforce utilization, equipment efficiency, and budget control across 50 construction projects. The objective was to identify cost drivers, operational inefficiencies, supplier risks, and project health issues to support better decision-making.#
 
-## ## Dataset Description
+## Dataset Description
 
 The dataset contains operational data from 50 construction projects across multiple locations in Nigeria. It captures project activities, procurement transactions, workforce records, supplier performance, equipment operations, and budget information.
 
@@ -186,31 +186,51 @@ Budget analysis further showed:
 * 7 were in critical budget condition
 * 2 were at risk of future overruns
 
-Executive Summary
-
+## Executive Summary
+<p>
 This project analyzes operational, procurement, workforce, supplier, equipment, and budget performance across 50 construction projects using SQL and Power BI, covering over ₦21.8 billion in total operational spending.
 <p></p>
 The analysis revealed significant budget overruns, procurement-driven cost concentration, supplier performance risks, workforce utilization inefficiencies, and project-level performance disparities. While fuel efficiency and supplier diversification remained relatively stable, procurement cost control and project governance emerged as the most critical areas for improvement.
 
-<img width="622" height="372" alt="Executive_dashboard" src="https://github.com/Debbyjones99/Retail-Operations-Analytics/blob/main/Dashboard%20Screenshots/Executive_dashboard.PNG" />
+<img width="622" height="372" alt="Executive_dashboard" src="https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/blob/main/Dashboard_Screenshot/executive_dashboard_Onyewem.png" />
 Key Insights
 
-Operational Performance
+### Operational Performance
 
-Total spend: ₦21.8B vs ₦14.4B budget (significant overspend)
-2025 recorded the highest operational cost (₦7.38B)
-Spending patterns were highly project-specific, not uniform across time
-Project 10039 recorded extreme budget variance (>703%)
+- Total spend: ₦21.8B vs ₦14.4B budget (significant overspend)
+- 2025 recorded the highest operational cost (₦7.38B)
+- Spending patterns were highly project-specific, not uniform across time
+- Project 10039 recorded extreme budget variance (>703%)
 
-Cost Structure
+### Cost Structure
 
 Material procurement dominated total spend: ₦18.85B (~85%+ of total cost)
 Equipment: ₦1.41B | Labour: ₦771.9M | Fuel: ₦380M | Transport: ₦232M
 Procurement efficiency identified as the highest-impact cost-saving lever
 
+## Workforce Performance
+<p></p>
+<img width="622" height="372" alt="Executive_dashboard" src="https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/blob/main/Dashboard_Screenshot/workforce_optimization_dashboard_Onyewem.png" />
+
+500 workers (50% contractors)
+Contractors were primary cost drivers in 26 projects
+Premium skilled workers concentrated in Masons, Electricians, Plumbers, Carpenters
+Evidence of underutilization in workforce allocation (e.g., Worker 40217)
+
+## Supplier Performance
+<p></p>
+<img width="622" height="372" alt="Executive_dashboard" src="https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/blob/main/Dashboard_Screenshot/workforce_optimization_dashboard_Onyewem.png" />
+<p></p>
+79 active suppliers with moderate performance score (60/100)
+36 high-risk suppliers identified
+Frequent delivery delays (avg: 96.1%)
+No strong supplier concentration risk (<2% per supplier)
 
 
-
-
-
-
+## Equipment & Operations
+<p></p>
+<img width="622" height="372" alt="Executive_dashboard" src="https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/blob/main/Dashboard_Screenshot/equipment_efficiency_dashboard_Onyewem.png" />
+<P></P>
+Fuel: ₦380M | Equipment: ₦1.41B | Transport: ₦232M
+Fuel usage remained proportional to equipment utilization (no major anomalies)
+Equipment 5048 recorded highest operational cost impact
