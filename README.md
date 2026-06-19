@@ -272,7 +272,15 @@ Material costs contributed 86.2% of total operational expenses, highlighting pro
 6. Perform operational audits in Lagos to identify drivers of inefficiency and replicate best practices from higher-performing locations.
 7. Introduce stricter budget governance and forecasting processes to reduce widespread project cost overruns.
 
+## Data Limitation 
+Analysis was based on historical data without real-time validation, and findings are correlation-based rather than experimentally tested. External market and operational factors were not included in the dataset.
 
+## Contact
+
+Open to Data Analyst opportunities.
+
+- Email: deborahjonah06@gmail.com
+- LinkedIn: https://www.linkedin.com/in/deborah-jonah-220210327
 
 
 
