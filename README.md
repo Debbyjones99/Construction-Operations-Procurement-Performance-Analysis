@@ -193,6 +193,7 @@ This project analyzes operational, procurement, workforce, supplier, equipment, 
 The analysis revealed significant budget overruns, procurement-driven cost concentration, supplier performance risks, workforce utilization inefficiencies, and project-level performance disparities. While fuel efficiency and supplier diversification remained relatively stable, procurement cost control and project governance emerged as the most critical areas for improvement.
 
 <img width="622" height="372" alt="Executive_dashboard" src="https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/blob/main/Dashboard_Screenshot/executive_dashboard_Onyewem.png" />
+<P></P>
 Key Insights
 
 ### Operational Performance
@@ -204,33 +205,82 @@ Key Insights
 
 ### Cost Structure
 
-Material procurement dominated total spend: ₦18.85B (~85%+ of total cost)
-Equipment: ₦1.41B | Labour: ₦771.9M | Fuel: ₦380M | Transport: ₦232M
-Procurement efficiency identified as the highest-impact cost-saving lever
+- Material procurement dominated total spend: ₦18.85B (~85%+ of total cost)
+- Equipment: ₦1.41B | Labour: ₦771.9M | Fuel: ₦380M | Transport: ₦232M
+- Procurement efficiency identified as the highest-impact cost-saving lever
 
 ## Workforce Performance
 <p></p>
 <img width="622" height="372" alt="Executive_dashboard" src="https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/blob/main/Dashboard_Screenshot/workforce_optimization_dashboard_Onyewem.png" />
 
-500 workers (50% contractors)
-Contractors were primary cost drivers in 26 projects
-Premium skilled workers concentrated in Masons, Electricians, Plumbers, Carpenters
-Evidence of underutilization in workforce allocation (e.g., Worker 40217)
+- 500 workers (50% contractors)
+- Contractors were primary cost drivers in 26 projects
+- Premium skilled workers concentrated in Masons, Electricians, Plumbers, Carpenters
+- Evidence of underutilization in workforce allocation (e.g., Worker 40217)
 
 ## Supplier Performance
 <p></p>
 <img width="622" height="372" alt="Executive_dashboard" src="https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/blob/main/Dashboard_Screenshot/workforce_optimization_dashboard_Onyewem.png" />
 <p></p>
-79 active suppliers with moderate performance score (60/100)
-36 high-risk suppliers identified
-Frequent delivery delays (avg: 96.1%)
-No strong supplier concentration risk (<2% per supplier)
+- 79 active suppliers with moderate performance score (60/100)
+- 36 high-risk suppliers identified
+- Frequent delivery delays (avg: 96.1%)
+- No strong supplier concentration risk (<2% per supplier)
 
 
 ## Equipment & Operations
 <p></p>
 <img width="622" height="372" alt="Executive_dashboard" src="https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/blob/main/Dashboard_Screenshot/equipment_efficiency_dashboard_Onyewem.png" />
 <P></P>
-Fuel: ₦380M | Equipment: ₦1.41B | Transport: ₦232M
-Fuel usage remained proportional to equipment utilization (no major anomalies)
-Equipment 5048 recorded highest operational cost impact
+- Fuel: ₦380M | Equipment: ₦1.41B | Transport: ₦232M
+- Fuel usage remained proportional to equipment utilization (no major anomalies)
+- Equipment 5048 recorded highest operational cost impact
+
+## Project Health Assessment
+
+Project health scoring identified widespread portfolio performance challenges.
+
+Results showed:
+
+* 41 Critical Projects
+* 9 At-Risk Projects
+
+Key drivers included:
+
+* Budget overruns
+* Delivery delays
+* Low workforce utilization
+* Unfavorable cost variances
+
+Budget analysis further revealed:
+
+* 41 projects exceeded budget expectations
+* 7 projects were in a critical budget condition
+* 2 projects were at risk of future budget overruns
+
+## Key Findings 
+
+Material costs contributed 86.2% of total operational expenses, highlighting procurement as the primary cost driver across all projects. This level of concentration suggests that procurement efficiency, supplier pricing, and sourcing strategy have a disproportionate impact on overall project profitability and cost control.
+
+## Strategic Recommendations
+
+1. Prioritize procurement optimization initiatives since material costs account for approximately 86% of total operational spending.
+2. Implement stronger supplier performance monitoring programs focused on delivery reliability and lead-time reduction.
+3. Conduct detailed reviews of high-risk and critical projects to identify root causes of budget overruns.
+4. Improve workforce allocation processes to reduce underutilization and maximize labor productivity.
+5. Establish automated anomaly detection systems to monitor unusual operational transactions in real time.
+6. Perform operational audits in Lagos to identify drivers of inefficiency and replicate best practices from higher-performing locations.
+7. Introduce stricter budget governance and forecasting processes to reduce widespread project cost overruns.
+
+
+
+
+
+
+
+
+
+
+
+
+
