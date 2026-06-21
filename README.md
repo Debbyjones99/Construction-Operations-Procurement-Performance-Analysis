@@ -10,9 +10,9 @@ Conducted end-to-end operational analytics on ₦21.8B of construction project s
 - Data Model
 - SQL Analysis & Insights
 - Executive Dashboard
-- Workforce Analytics
-- Supplier & Procurement Performance
-- Equipment Operations & Utilization
+- Workforce Analytics Dashboard
+- Supplier & Procurement Performance Dashboard
+- Equipment Operations & Utilization Dashboard
 - Project Health Assessment
 - Key Findings
 - Strategic Recommendations
@@ -22,24 +22,24 @@ Conducted end-to-end operational analytics on ₦21.8B of construction project s
 
 ## Project Overview
 
-This project analyzes operational data from 50 construction projects with over ₦21.8 billion in total spending. Using SQL for data analysis and Power BI for visualization, I evaluated project performance, procurement efficiency, supplier reliability, workforce utilization, equipment operations, and budget management.
+This project analyzes operational data from 50 building construction projects with over ₦21.8 billion in total spending. Using SQL for data analysis and Power BI for visualization, I evaluated project performance, procurement efficiency, supplier reliability, workforce utilization, equipment operations, and budget management.
 
 The analysis focused on identifying cost drivers, detecting unusual spending patterns, assessing supplier and project risks, evaluating workforce efficiency, and uncovering opportunities for operational improvement and cost optimization. 
 
 ## Business Problem
 
-The organization needed visibility into project performance, procurement spending, supplier risk, workforce utilization, equipment efficiency, and budget control across 50 construction projects. The objective was to identify cost drivers, operational inefficiencies, supplier risks, and project health issues to support better decision-making.#
+The organization needed visibility into project performance, procurement spending, supplier risk, workforce utilization, equipment efficiency, and budget control across 50 building construction projects. The objective was to identify cost drivers, operational inefficiencies, supplier risks, and project health issues to support better decision-making.#
 
 ## Dataset Description
 
-The dataset contains operational data from 50 construction projects across multiple locations in Nigeria. It captures project activities, procurement transactions, workforce records, supplier performance, equipment operations, and budget information.
+The dataset contains operational data from 50 building construction projects across multiple locations in Nigeria. It captures project activities, procurement transactions, workforce records, supplier performance, equipment operations, and budget information.
 ### Dataset 
 * <a href=https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/tree/main/Dataset > Procure to performance dashboard</a>
 
 
 ### Dataset Coverage
 
-* 50 Construction Projects
+* 50 building Construction Projects
 * 500 Workers
 * 100 Suppliers
 * Multiple Equipment Assets
@@ -63,7 +63,6 @@ The dataset supports analysis of project performance, cost drivers, supplier rel
 
 * **SQL (PostgreSQL)** – Data cleaning, aggregation, joins, and analytical queries
 * **Power BI** – Data visualization, dashboard development, and KPI tracking
-* **Excel** – Initial data inspection and validation
 
 ### Methodology
 
@@ -83,7 +82,7 @@ The analysis followed a structured end-to-end data analytics workflow:
 
    * Performed aggregation to compute total costs, averages, and variances
    * Identified outliers using threshold-based comparisons (e.g., 150% of averages)
-   * Conducted cohort-style analysis for workforce, supplier, and project performance
+   * Conducted workforce, supplier, and project performance analysis using SQL to identify utilization gaps, supplier risks, budget overruns, and operational inefficiencies.
 
 4. **Business Analysis**
 
@@ -115,35 +114,30 @@ The data model follows a **star schema structure** designed to support efficient
 
 * **Project Dimension**
 
-  * Project ID, project type, location, and status
+  * Project ID, project type, location, budget, project priority and status
 
 * **Workforce Dimension**
 
-  * Worker ID, trade, skill level, wage rate, and utilization metrics
+  * Worker ID, trade, skill level, wage rate, and employment type
 
 * **Supplier Dimension**
 
-  * Supplier ID, rating, lead time, delivery delay, and risk classification
+  * Supplier ID, rating, lead time, and supplier status
 
 * **Equipment Dimension**
 
-  * Equipment ID, usage days, fuel consumption, and cost metrics
+  * Equipment ID, usage days, and equipment type
 
-* **Time Dimension (if applicable)**
+* **Time Dimension **
 
   * Year, month, and period-based breakdown for trend analysis
 
 ### Relationships
 
-* All dimension tables connect to the **Operations Fact Table** using `Project ID` and relevant foreign keys.
-* This structure enables:
+* The Operations Fact Table serves as the central table.
+* Dimension tables were connected using **Project ID, Worker ID, Supplier ID, Product ID, and Equipment ID**.
+* This model supports analysis of project performance, workforce utilization, procurement, suppliers, equipment, and costs.
 
-  * Cross-project performance analysis
-  * Time-based trend evaluation
-  * Supplier and workforce benchmarking
-  * Cost aggregation and variance analysis
-
-The model supports scalable analysis across operational, financial, and performance metrics.
 
 ## SQL Analysis & Insights 
 
@@ -164,7 +158,7 @@ Operational efficiency was assessed using delivery delays, fuel consumption, equ
 Results showed:
 
 * **Lagos** – Critical performance zone
-* **Abuja** – At Risk
+* **Abuja** – At Risk 
 * **Kano, Ogun, Port Harcourt** – Efficient operations
 
 Although Ogun recorded the highest operational expenditure (₦7.53B), it demonstrated relatively stronger cost efficiency compared to Lagos.
