@@ -45,7 +45,7 @@ Without visibility into these areas, management faced challenges identifying cos
 ## Dataset Description
 The dataset contains operational data from 50 building construction projects across multiple locations in Nigeria.
 ### Dataset 
-* <a href=https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/tree/main/Dataset > Procure to performance dashboard</a>
+* <a href=https:https://github.com/Debbyjones99/Construction-Operations-Procurement-Performance-Analysis/tree/main/Dataset>Construction Operations, Procurement & Performance Analysis</a>
 
 
 ### Dataset Coverage
@@ -57,7 +57,7 @@ The dataset contains operational data from 50 building construction projects acr
 * Procurement Transactions
 * Budget and Operational Cost Records
 
-###Dataset Includes
+### Dataset Includes
 
 * Project Information
 * Workforce Records
@@ -163,7 +163,7 @@ Budget analysis further showed:
 This project analyzes operational, procurement, workforce, supplier, equipment, and budget performance across 50  building construction projects using SQL and Power BI, covering over ₦21.8 billion in total operational spending.
 <p></p>
 The analysis revealed significant budget overruns, procurement-driven cost concentration, supplier performance risks, workforce utilization inefficiencies, and project-level performance disparities. While fuel efficiency and supplier diversification remained relatively stable, procurement cost control and project governance emerged as the most critical areas for improvement.
-
+<p></p>
 <img width="622" height="372" alt="Executive_dashboard" src="https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/blob/main/Dashboard_Screenshot/executive_dashboard_Onyewem.png" />
 <P></P>
 Key Insights
